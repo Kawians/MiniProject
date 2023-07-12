@@ -1,0 +1,11 @@
+# Ignore compiled files
+*.o
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore directories
+/build/
+/dist/
+/venv/
