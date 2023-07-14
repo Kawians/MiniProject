@@ -15295,7 +15295,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Explanation-about-the-mini-project,-and-dataset-to-be-added">Explanation about the mini project, and dataset to be added<a class="anchor-link" href="#Explanation-about-the-mini-project,-and-dataset-to-be-added">&#182;</a></h2>
+<h2 id="About-this-Mini-Project"><span style="color:green">About this Mini Project</span><a class="anchor-link" href="#About-this-Mini-Project">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15306,10 +15306,94 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Introduction:">Introduction:<a class="anchor-link" href="#Introduction:">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>In this project we have decided to build a model for the Paper,rock and scissor game. The motivation for this project comes from the idea that this game is mainly based on the player choice of scissor, rock or paper and this enables us to model this game using image classification. In fact, the idea is to capture the player hand's gesture and predict if it is rock, paper or scissors, and then make a random guess by computer and see which one wins.</p>
 
 </div>
 </div>
 </div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Dataset:">Dataset:<a class="anchor-link" href="#Dataset:">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>As we are aware, the TensorFlow Datasets library provides a collection of datasets that are readily compatible with TensorFlow. To build our model, we utilized the rock paper scissors dataset available in the TensorFlow library. This dataset contained a collection of images representing the hand gestures for Rock, Paper, and Scissors.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Model/Methodology:">Model/Methodology:<a class="anchor-link" href="#Model/Methodology:">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div  class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Our CNN model consisted of five layers to effectively extracting relevant features from input images. The first layer comprised 16 filters with a kernel size of 3*3. This choice of architecture allowed the model to extract relevant features from the input images effectively. We applied max pooling and flattening techniques to downsample the extracted features, reshape and reduce the computational complexity.   Finally, the flattened features were passed through a dense layer, enablinto enable the model to learn and predict the probabilities associated with the three possible outcomeswe Scissors Rock and Paper.</p>
+<p>Important note: Due to limitation regarding the size of the model on GitHub to be kept under 25MB, we were unable to get very high accuracy , however we aimed to have the highest possible while maintianin the model size under 25MB so if we want to utilize this model there would be some inaccuracy that is due to this limitation.</p>
+
+</div>
+</div>
+</div>
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell    celltag_noshow">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>Button(description=&#39;Go to the notebook&#39;, style=ButtonStyle())</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 
