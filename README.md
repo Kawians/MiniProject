@@ -14,3 +14,9 @@ So, this model will not be accurate enough, but at the moment for miniproject we
 2- cnn_rock_paper_scissors Notebook: We generated this notebook to solve the overfitting problem and increasing the accuracy. This is the notebook that we implemented some part of our reference code at and we solved the overfitting, and low accuracy problem.  <br>
 Also, at the end of this note book we used functional plot.<br>
    <br> 
+
+### Group Members:
+1- Dusan Birtasevic <br>
+2- Narjes Amousoltani <br>
+3- Tina Khazaei <br>
+4- Kavian Mashayekhi
